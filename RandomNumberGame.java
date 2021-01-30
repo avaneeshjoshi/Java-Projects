@@ -6,8 +6,8 @@ public class RandomNumberGame {
         System.out.println("This is a Random Number Guessing Game.");
         System.out.println("Please Choose Your Difficulty... Easy, Normal or Hard");
         System.out.println("Easy being a number between 1 and 10; Normal being a number between 1 and 100; Hard being a number between 1 and 1000");
-        System.out.println("Enter your difficulty in all lower case");
         System.out.println("You have 5 attempts");
+        System.out.println("Enter your difficulty in all lower case");
         String difficulty = gameDifficulty.next();
         if (difficulty.equals("easy")) {
             double myNum = Math.ceil(Math.random() * 10);
